@@ -50,7 +50,7 @@
             total += item.price * item.quantity;
         });
 
-        totalElem.textContent = `Итого: ${total} BYN`;
+        totalElem.textContent = `Итого: ${total.toFixed(2)} BYN`;
         const paymentSelect = document.getElementById("paymentSelect");
         const cardInfo = document.getElementById("cardInfo");
         const cardInputs = cardInfo.querySelectorAll("input");
