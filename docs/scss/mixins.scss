@@ -1,0 +1,54 @@
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin font($small, $medium, $big) {
+  font-size: $medium;
+  font-family: $font-brand;
+  @media (max-width: 320px) {
+    font-size: $small;
+  }
+  @media (min-width: 1024px) {
+    font-size: $big;
+  }
+}
+@mixin link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: $gray-dark;
+  transition: color $transition;
+  &.active {
+    color: $primary;
+  }
+  &:hover {
+    color: $primary-hover;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.4rem;
+  }
+}
+@mixin button-style($bg: $primary, $color: white) {
+  background: $bg;
+  color: $color;
+  border: none;
+  border-radius: $radius;
+  cursor: pointer;
+  transition: $transition;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+@mixin input-style {
+  border: 1px solid $gray-border;
+  border-radius: $radius;
+  padding: 0.5rem;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/order.css" />
+    <title>Оформление заказа</title>
+</head>
+
+<body>
+    <div class="checkout-container">
+        <h1>Оформление заказа</h1>
+
+        <div id="checkout-items" class="checkout-items"></div>
+        <div class="total" id="checkout-total"></div>
+
+        <form class="checkout-form">
+            <input type="text" placeholder="Имя (необязательно)" />
+            <input type="text" placeholder="Адрес доставки" required />
+            <input type="tel" placeholder="Номер телефона" required />
+
+            <div class="payment-method">
+                <label for="paymentSelect">Способ оплаты:</label>
+                <select id="paymentSelect">
+                    <option value="cash">Наличными при получении</option>
+                    <option value="card" selected>Картой онлайн</option>
+                </select>
+            </div>
+            <div class="card-info hidden" id="cardInfo">
+                <input type="text" placeholder="Номер карты" maxlength="19" required />
+                <input type="text" placeholder="MM/YY" maxlength="5" required />
+                <input type="text" placeholder="CVV" maxlength="4" required>
+            </div>
+
+            <button type="submit" class="pay-btn">Оплатить</button>
+        </form>
+    </div>
+    <script>
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const container = document.getElementById("checkout-items");
+        const totalElem = document.getElementById("checkout-total");
+        let total = 0;
+        cart.forEach((item) => {
+            const el = document.createElement("div");
+            el.className = "cart-item";
+            el.textContent = `${item.title} — ${item.price} BYN × ${item.quantity}`;
+            container.appendChild(el);
+            total += item.price * item.quantity;
+        });
+
+        totalElem.textContent = `Итого: ${total} BYN`;
+        const paymentSelect = document.getElementById("paymentSelect");
+        const cardInfo = document.getElementById("cardInfo");
+        const cardInputs = cardInfo.querySelectorAll("input");
+        function handlePaymentChange() {
+            if (paymentSelect.value === "card") {
+                cardInfo.classList.remove("hidden");
+                cardInputs.forEach((input) => input.setAttribute("required", "true"));
+            } else {
+                cardInfo.classList.add("hidden");
+                cardInputs.forEach((input) => input.removeAttribute("required"));
+            }
+        }
+        paymentSelect.addEventListener("change", handlePaymentChange);
+        handlePaymentChange();
+        
+        document.querySelector(".checkout-form").addEventListener("submit", (e) => {
+            e.preventDefault();
+            const paymentMethod = paymentSelect.value;
+            if (paymentMethod === "card") {
+                alert("Спасибо за покупку!");
+            } else {
+                alert("Спасибо за заказ!");
+            }
+            localStorage.removeItem("cart");
+            window.location.href = "Main.html";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fffcfa;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.checkout-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  transition: all 0.2s ease;
+}
+@media (max-width: 768px) {
+  .checkout-container {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .checkout-container {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  margin-bottom: 1.5rem;
+}
+
+.cart-item {
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item::before {
+  content: "";
+}
+
+.total {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: right;
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.checkout-form input {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 96%;
+}
+.checkout-form .pay-btn {
+  background: #4a6ea9;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  padding: 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+}
+.checkout-form .pay-btn:hover {
+  background: rgba(86, 125, 187, 0.9);
+}
+
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.payment-method select {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: rgba(86, 125, 187, 0.9);
+  color: white;
+  border: none;
+  padding: 0.6rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.card-info input {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.card-info.hidden {
+  display: none;
+}/*# sourceMappingURL=order.css.map */

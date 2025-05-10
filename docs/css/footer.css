@@ -1,0 +1,42 @@
+.site-footer {
+  background: #111827;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+.site-footer .footer-columns {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 2rem;
+}
+.site-footer .footer-brand .logo {
+  margin: 0 0 1rem 1rem;
+  font-size: 1.6rem;
+  font-family: "Pacifico";
+}
+@media (max-width: 320px) {
+  .site-footer .footer-brand .logo {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .site-footer .footer-brand .logo {
+    font-size: 2rem;
+  }
+}
+.site-footer .footer-contacts h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+.site-footer .footer-contacts ul li {
+  display: flex;
+  justify-content: left;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  margin-left: -2.5rem;
+}
+.site-footer .footer-bottom {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */

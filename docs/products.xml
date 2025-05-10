@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <title>Обои Royal Blue</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x10</size>
+        <price>119.99</price>
+        <image>imgs/royalblue.jpg</image>
+        <color>blue</color>
+        <description>Обои Royal Blue — это воплощение королевской элегантности и утончённого стиля. Глубокий синий оттенок придаёт интерьеру благородство и спокойствие, идеально подходит для классических и современных интерьеров. Изготовленные из прочной текстильной базы, эти обои обеспечивают высокую износостойкость и простоту ухода. Великолепно смотрятся в гостиных, кабинетах и спальнях, создавая атмосферу уюта и изысканности.</description>
+    </product>
+    <product>
+        <title>Обои Elegant White</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x15</size>
+        <price>144.50</price>
+        <image>imgs/elegantwhite.jpg</image>
+        <color>white</color>
+        <description>Обои Elegant White подчеркнут светлую палитру интерьера и визуально расширят пространство. Их утончённая текстура создаёт мягкие световые переливы, добавляя помещению воздуха и лёгкости. Флизелиновая основа обеспечивает удобство в поклейке и долговечность, идеально подходит для оформления спальни или гостиной в скандинавском или минималистичном стиле.</description>
+    </product>
+    <product>
+        <title>Обои Modern Beige</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x20</size>
+        <price>179.00</price>
+        <image>imgs/modernbeige.jpg</image>
+        <color>beige</color>
+        <description>Обои Modern Beige — это универсальное решение для современного интерьера. Тёплый бежевый оттенок легко сочетается с различными цветами мебели и декора. Виниловое покрытие придаёт дополнительную прочность, устойчивость к влаге и загрязнениям, что делает эти обои отличным выбором для кухни или коридора.</description>
+    </product>
+    <product>
+        <title>Обои Classic Gray</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x10</size>
+        <price>89.80</price>
+        <image>imgs/classicgray.jpg</image>
+        <color>gray</color>
+        <description>Обои Classic Gray создают элегантную и сбалансированную атмосферу благодаря сдержанному серому оттенку. Они идеально подойдут для офисов, гостиных и современных квартир. Флизелиновая структура делает процесс поклейки простым и быстрым, а сам материал надёжен и долговечен. Эти обои станут основой для стильного и уютного интерьера.</description>
+    </product>
+    <product>
+        <title>Обои Art Black</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x15</size>
+        <price>142.99</price>
+        <image>imgs/artblack.jpg</image>
+        <color>black</color>
+        <description>Обои Art Black — это эффектный акцент в интерьере, способный подчеркнуть современный или индустриальный стиль. Глубокий чёрный цвет с художественными мотивами придаёт пространству выразительность и динамику. Эти фотообои идеально подойдут для создания акцентной стены в гостиной, спальне или креативном офисе. Их структура устойчива к выцветанию и проста в уходе.</description>
+    </product>
+    <product>
+        <title>Обои Linen Light</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x20</size>
+        <price>184.39</price>
+        <image>imgs/linenlight.jpg</image>
+        <color>white</color>
+        <description>Обои Linen Light выполнены с имитацией льняной ткани, что придаёт поверхности уютную натуральную фактуру. Светлый цвет делает интерьер свежим и светлым, добавляя ему уюта и простора. Текстильная основа обеспечивает приятное на ощупь покрытие и хорошую звукоизоляцию. Идеальный выбор для спален и тихих зон отдыха.</description>
+    </product>
+    <product>
+        <title>Обои Desert Sand</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x10</size>
+        <price>77.99</price>
+        <image>imgs/desertsand.jpg</image>
+        <color>beige</color>
+        <description>Обои Desert Sand вдохновлены природными оттенками песка и солнца. Они создают тёплую, расслабляющую атмосферу, подходящую для уютного дома. Виниловая поверхность делает их устойчивыми к влаге и загрязнениям, что особенно ценно для кухонь, ванных и прихожих. Обои легко чистятся и сохраняют первоначальный вид надолго.</description>
+    </product>
+    <product>
+        <title>Обои Deep Ocean</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x20</size>
+        <price>242.99</price>
+        <image>imgs/deepocean.jpg</image>
+        <color>blue</color>
+        <description>Обои Deep Ocean приносят в интерьер ощущение морской глубины и спокойствия. Глубокий синий оттенок с лёгкой текстурой придаёт стенам насыщенность и выразительность. Флизелиновая основа облегчает поклейку и гарантирует долговечность покрытия. Отлично подходят для спальни или кабинета в современном стиле.</description>
+    </product>
+    <product>
+        <title>Обои Soft Gray</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x15</size>
+        <price>119.90</price>
+        <image>imgs/softgray.jpg</image>
+        <color>gray</color>
+        <description>Обои Soft Gray — это идеальное сочетание нежного серого оттенка и текстильной мягкости. Они создают утончённую и расслабляющую атмосферу в любом помещении. Материал хорошо дышит и обладает звукоизоляционными свойствами, что делает их подходящими для спальни, детской или кабинета.</description>
+    </product>
+    <product>
+        <title>Обои Black Ink</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x10</size>
+        <price>129.99</price>
+        <image>imgs/blackink.jpg</image>
+        <color>black</color>
+        <description>Обои Black Ink впечатляют своим графическим дизайном и глубоким чёрным цветом. Они подойдут для оформления акцентной стены или арт-пространства. Благодаря фотоформату, изображение смотрится реалистично и стильно. Это отличный выбор для современных квартир с креативным настроем.</description>
+    </product>
+    <product>
+        <title>Обои Arctic White</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x15</size>
+        <price>105.00</price>
+        <image>imgs/arctic.jpg</image>
+        <color>white</color>
+        <description>Обои Arctic White придают помещению кристальную чистоту и визуальную свежесть. Белоснежный оттенок делает комнату светлее и просторнее, отражая максимум естественного света. Флизелиновая основа позволяет легко и быстро клеить обои без деформаций.</description>
+    </product>
+    <product>
+        <title>Обои Warm Beige</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x10</size>
+        <price>82.00</price>
+        <image>imgs/warmbeige.jpg</image>
+        <color>beige</color>
+        <description>Обои Warm Beige создают ощущение тепла и уюта благодаря насыщенному кремово-бежевому оттенку. Они идеально сочетаются с деревянной мебелью и тёплым освещением. Виниловое покрытие устойчиво к царапинам, влаге и загрязнениям, что делает их практичным решением для семейных домов.</description>
+    </product>
+    <product>
+        <title>Обои Denim Blue</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x15</size>
+        <price>130.59</price>
+        <image>imgs/denimblue.jpg</image>
+        <color>blue</color>
+        <description>Обои Denim Blue придают интерьеру стильную небрежность и динамику, вдохновлённую текстурой джинсовой ткани. Они отлично смотрятся в молодежных или креативных пространствах. Благодаря формату фотообоев, узор выглядит реалистично и глубоко.</description>
+    </product>
+    <product>
+        <title>Обои Cloud Gray</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x10</size>
+        <price>98.40</price>
+        <image>imgs/cloudgray.jpg</image>
+        <color>gray</color>
+        <description>Обои Cloud Gray вдохновлены оттенками пасмурного неба и облаков. Их мягкий серый цвет и текстильная фактура создают расслабляющее, умиротворённое пространство. Эти обои хорошо подходят для помещений, где важна атмосфера покоя — например, спальни или кабинета.</description>
+    </product>
+    <product>
+        <title>Обои Midnight Black</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x20</size>
+        <price>205.00</price>
+        <image>imgs/midnightblack.jpg</image>
+        <color>black</color>
+        <description>Обои Midnight Black создают эффект глубокой ночи и драматического контраста. Они отлично подходят для акцентных стен и интерьеров в индустриальном стиле. Флизелиновая структура упрощает монтаж и сохраняет чёткие линии.</description>
+    </product>
+    <product>
+        <title>Обои Snow White</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x10</size>
+        <price>49.99</price>
+        <image>imgs/snowwhite.jpg</image>
+        <color>white</color>
+        <description>Обои Snow White — символ свежести и лёгкости. Их текстура и идеально белый цвет придают помещению утончённый и чистый вид. Текстильная структура делает поверхность приятной на ощупь, а светлая гамма визуально расширяет пространство.</description>
+    </product>
+    <product>
+        <title>Обои Cream Beige</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x10</size>
+        <price>67.79</price>
+        <image>imgs/creambeige.jpg</image>
+        <color>beige</color>
+        <description>Обои Cream Beige наполнены мягким, сливочно-бежевым оттенком, который отлично сочетается с природными материалами и уютным освещением. Они подойдут для создания тёплой домашней атмосферы.</description>
+    </product>
+    <product>
+        <title>Обои Sky Blue</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x20</size>
+        <price>168.00</price>
+        <image>imgs/skyblue.jpg</image>
+        <color>blue</color>
+        <description>Обои Sky Blue наполнят пространство лёгкостью и воздушностью. Их оттенок напоминает ясное дневное небо и отлично подходит для оформления светлых комнат.</description>
+    </product>
+    <product>
+        <title>Обои Steel Gray</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x10</size>
+        <price>103.99</price>
+        <image>imgs/steelgray.jpg</image>
+        <color>gray</color>
+        <description>Обои Steel Gray — стильное решение для современных интерьеров. Их металлический серый цвет придаёт помещению строгость и утончённость. Флизелиновая основа обеспечивает простоту в работе и долговечность.</description>
+    </product>
+    <product>
+        <title>Обои Night Black</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x15</size>
+        <price>154.49</price>
+        <image>imgs/nightblack.jpg</image>
+        <color>black</color>
+        <description>Обои Night Black придают интерьеру атмосферу загадочности и глубины. Их насыщенный тёмный цвет отлично контрастирует со светлой мебелью или акцентами. Фотообои этого типа особенно подойдут для акцентных стен.</description>
+    </product>
+    <product>
+        <title>Обои Cosmos Blue</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x10</size>
+        <price>114.99</price>
+        <image>imgs/cosmosblue.jpg</image>
+        <color>blue</color>
+        <description>Обои Cosmos Blue создают в интерьере атмосферу спокойствия и бесконечности. Глубокий синий оттенок навеян ночным небом и прекрасно сочетается с современными и минималистичными стилями.</description>
+    </product>
+    <product>
+        <title>Обои Botan White</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x10</size>
+        <price>84.99</price>
+        <image>imgs/plwhite.jpg</image>
+        <color>white</color>
+        <description>Обои Botan White вносят в интерьер чистоту и лёгкость, благодаря своему светлому фону и ненавязчивому растительному узору. Их текстильная текстура создаёт уют и визуальную мягкость.</description>
+    </product>
+    <product>
+        <title>Обои Botan Gray</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x15</size>
+        <price>119.49</price>
+        <image>imgs/botangray.jpg</image>
+        <color>gray</color>
+        <description>Обои Botan Gray воплощают сдержанную элегантность и современный стиль. Нейтральный серый оттенок делает их универсальным решением для разных помещений. Эти обои не только красиво выглядят, но и обладают отличными эксплуатационными характеристиками. Они легко моются и устойчивы к выцветанию, что делает их идеальными для использования в гостиных, офисах и спальнях. Текстильная структура добавляет уют и комфорт в любое пространство.</description>
+    </product>
+    <product>
+        <title>Обои Botan Beige</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x20</size>
+        <price>189.59</price>
+        <image>imgs/botanbeige.jpg</image>
+        <color>beige</color>
+        <description>Обои Botan Beige наполняют пространство теплом и природной мягкостью. Их приглушённый бежевый тон создаёт атмосферу уюта и спокойствия. Эти обои прекрасно сочетаются с деревянной мебелью и натуральными текстурами, что делает их идеальными для создания гармоничного интерьера. Они легко укладываются, а текстильная основа обеспечивает хорошую звукоизоляцию, что особенно важно для спален и зон отдыха.</description>
+    </product>
+    <product>
+        <title>Обои Tree Gray</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x10</size>
+        <price>99.00</price>
+        <image>imgs/treesgray.jpg</image>
+        <color>gray</color>
+        <description>Обои Tree Gray вдохновлены природными мотивами и придают интерьеру структуру и ритм. Сдержанный серый оттенок и тонкие древесные линии создают современный и стильный фон. Эти обои не только эстетически привлекательны, но и практичны: они устойчивы к влаге и легко чистятся. Они подойдут для оформления как жилых, так и коммерческих помещений, добавляя им стильный акцент.</description>
+    </product>
+    <product>
+        <title>Обои Wave Blue</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x15</size>
+        <price>172.29</price>
+        <image>imgs/marinblue.jpg</image>
+        <color>blue</color>
+        <description>Обои Wave Blue приносят ощущение движения и лёгкости благодаря своему волнообразному узору. Глубокий синий цвет напоминает морскую гладь и дарит умиротворение. Эти обои прекрасно подходят для создания спокойной атмосферы в спальне или ванной комнате. Они легко укладываются и обладают хорошей прочностью, что делает их отличным выбором для активных помещений.</description>
+    </product>
+    <product>
+        <title>Обои Art Gray</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x20</size>
+        <price>237.79</price>
+        <image>imgs/grayart.jpg</image>
+        <color>gray</color>
+        <description>Обои Art Gray представляют собой эффектный арт-объект, выполненный в утончённых серых тонах. Они сочетают в себе строгость и креативность, создавая акцентный элемент в интерьере. Эти фотообои идеально подходят для оформления современных гостиных или креативных пространств, подчеркивая индивидуальность владельца. Их высокое качество печати гарантирует яркость и насыщенность изображений на долгие годы.</description>
+    </product>
+    <product>
+        <title>Обои Green Botan</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x10</size>
+        <price>107.00</price>
+        <image>imgs/greenbotan.jpg</image>
+        <color>green</color>
+        <description>Обои Green Botan вдохновлены природной свежестью и сочной зеленью ботанических садов. Идеально подойдут для создания уютной и живой атмосферы в гостиной, спальне или кабинете. Фотообои придают глубину пространству и визуально расширяют комнату, делая интерьер более выразительным.</description>
+    </product>
+    <product>
+        <title>Обои Green Concrete</title>
+        <subtitle>Текстильные</subtitle>
+        <size>1.06x15</size>
+        <price>91.99</price>
+        <image>imgs/greenconcrete.jpg</image>
+        <color>green</color>
+        <description>Обои Green Concrete — это стильное сочетание урбанистической текстуры бетона с мягкими зелёными оттенками. Текстильная основа придаёт материалу благородство и глубину, а также обеспечивает хорошую звукоизоляцию. Отличный выбор для интерьеров в стиле лофт или модерн.</description>
+    </product>
+    <product>
+        <title>Обои Green Denim</title>
+        <subtitle>Флизелиновые</subtitle>
+        <size>1.06x10</size>
+        <price>117.70</price>
+        <image>imgs/greendenim.jpg</image>
+        <color>green</color>
+        <description>Обои Green Denim сочетают в себе практичность и модный дизайн. Благодаря флизелиновой основе они легко клеятся и не деформируются со временем. Зелёный цвет с текстурой ткани создаёт тёплую и расслабляющую атмосферу, особенно хорошо подойдёт для спален и детских комнат.</description>
+    </product>
+    <product>
+        <title>Обои Green Trees</title>
+        <subtitle>Фотообои</subtitle>
+        <size>1.06x10</size>
+        <price>107.00</price>
+        <image>imgs/greentrees.jpg</image>
+        <color>green</color>
+        <description>Обои Green Trees — это погружение в лесную гармонию прямо у вас дома. Фотообои с изображением зелёных деревьев освежают интерьер, делают его воздушным и естественным. Они особенно эффектно смотрятся на одной акцентной стене в сочетании с минималистичной мебелью.</description>
+    </product>
+    <product>
+        <title>Обои Green</title>
+        <subtitle>Виниловые</subtitle>
+        <size>1.06x10</size>
+        <price>107.00</price>
+        <image>imgs/greentrue.jpg</image>
+        <color>green</color>
+        <description>Обои Green — классическое решение в современном исполнении. Виниловое покрытие делает их прочными и устойчивыми к влаге, а насыщенный зелёный цвет оживляет пространство. Эти обои подойдут для кухни, прихожей или офиса, где важно сочетание практичности и стиля.</description>
+    </product>
+</products>

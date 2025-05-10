@@ -1,0 +1,219 @@
+@import "variables";
+@import "mixins";
+@import "footer";
+@import "header";
+@import "modals";
+
+body.site-body {
+  width: 100%;
+  background: $gray-light;
+  font-family: $font-main;
+  color: $gray-dark;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+main {
+  background-color: $gray-light;
+}
+#Banner {
+  width: 100vw;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 3rem;
+  @media (max-width: 768px) {
+    height: 350px;
+  }
+  @media (max-width: 320px) {
+    height: 250px;
+  }
+  .slider {
+    display: flex;
+    width: calc(100vw * 4); /* 3 слайда + 1 клон */
+    height: 100%;
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+  }
+  .slide {
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+  }
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    text-align: center;
+    width: 98%;
+    z-index: 2;
+    h1 {
+      @include font(1.3rem, 1.8rem, 2.5rem);
+      font-family: $font-brand;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    p {
+      @include font(0.9rem, 1.1rem, 1.3rem);
+      margin-bottom: 2rem;
+    }
+    .banner-button {
+      @include button-style();
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+  }
+}
+
+.categories {
+  padding: 0 2rem;
+  background-color: rgb(236, 236, 236);
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: $font-brand;
+    @include font(1.4rem, 2rem, 2.5rem);
+  }
+  .category-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .category-card {
+    background: white;
+    border-radius: $radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.25rem;
+    text-align: center;
+    transition: transform 0.3s;
+    h3 {
+      font-size: 1.4rem;
+      margin: -0.3rem 0 1rem 0;
+      font-family: $font-brand;
+    }
+    .product-preview {
+      img {
+        border-radius: $radius;
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: $radius;
+        margin-bottom: 0.5rem;
+        @media (max-width: 480px) {
+          height: 180px;
+        }
+      }
+      .info {
+        .title {
+          font-weight: bold;
+          margin-bottom: 0.25rem;
+        }
+        .price {
+          font-weight: 600;
+          color: rgb(12, 156, 12);
+        }
+      }
+      .card-buttons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        button,
+        a {
+          @include button-style();
+          font-size: 0.95rem;
+          padding: 0.6rem 1rem;
+          text-decoration: none;
+        }
+      }
+    }
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.advantages {
+  padding: 3rem 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+  h2 {
+    font-family: $font-brand;
+    @include font(1.3rem, 1.8rem, 2.3rem);
+    margin-bottom: 2rem;
+  }
+  .adv-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    li {
+      background: rgba(46, 209, 13, 0.219);
+      padding: 1rem 1.5rem;
+      border-radius: $radius;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #333;
+      text-align: left;
+      position: relative;
+    }
+  }
+  @media (min-width: 1024px) {
+    .adv-list {
+      flex-direction: row;
+      justify-content: space-between;
+      li {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.offer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.offer-overlay.hidden {
+  display: none;
+}
+.offer-box {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  text-align: center;
+}
+.offer-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: $primary;
+  font-weight: 600;
+  text-decoration: underline;
+}
