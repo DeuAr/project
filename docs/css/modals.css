@@ -114,9 +114,6 @@
 .modal .add-to-cart:hover {
   background: rgba(86, 125, 187, 0.9);
 }
-.modal #modalSize {
-  border-radius: 4px;
-}
 .modal #modalTitle {
   font-family: "Pacifico";
   color: #4a6ea9;
@@ -125,13 +122,13 @@
   font-weight: 600;
 }
 .modal #modalDescription {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: "Pacifico";
   font-family: "Inter", sans-serif;
 }
 @media (max-width: 320px) {
   .modal #modalDescription {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 @media (min-width: 1024px) {

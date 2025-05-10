@@ -107,9 +107,6 @@
     width: 100%;
     padding: 0.5rem;
   }
-  #modalSize {
-    border-radius: 4px;
-  }
   #modalTitle {
     font-family: $font-brand;
     color: $primary;
@@ -118,7 +115,7 @@
     font-weight: 600;
   }
   #modalDescription {
-    @include font(0.75rem, 1rem, 1.15rem);
+    @include font(0.7rem, 0.9rem, 1.15rem);
     font-family: $font-main;
   }
 }
