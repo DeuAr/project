@@ -60,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <span class="price">${p.price.toFixed(2)} BYN</span>
   </div>`;
-
       card.querySelector(".more-button").addEventListener("click", (e) => {
         e.stopPropagation();
         openModal(p);
@@ -129,13 +128,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("productModal");
   if (modal) {
     const closeButton = modal.querySelector(".close-button");
-    closeButton?.addEventListener("click", () => modal.classList.add("hidden"));
+    closeButton?.addEventListener("click", () => {
+      modal.classList.add("hidden");
+      document.body.style.overflow = "";
+    });
+    
     modal.addEventListener("click", (e) => {
       if (
         e.target.classList.contains("modal") ||
         e.target.classList.contains("modal-overlay")
       ) {
         modal.classList.add("hidden");
+        document.body.style.overflow = "";
       }
     });
   }
@@ -163,12 +167,13 @@ document.addEventListener("DOMContentLoaded", function () {
       addToCart(product);
       showNotification(`${product.title} добавлен в корзину`);
       modal.classList.add("hidden");
+      document.body.style.overflow = "";
     };
 
     modal.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
   }
 
-  
   document
     .getElementById("searchInput")
     .addEventListener("input", applyFilters);
