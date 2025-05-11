@@ -494,9 +494,10 @@ body.site-body {
   margin-bottom: 0.75rem;
 }
 .filter-panel .filter-block .slider {
-  width: 90%;
+  width: 95%;
   height: 4px;
   position: relative;
+  left: 5px;
   background-color: #ddd;
   border-radius: 4px;
   margin: 20px 0;
