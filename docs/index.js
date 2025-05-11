@@ -187,6 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     setTimeout(() => {
       offer.classList.add("hidden");
-    }, 5000);
+    }, 7000);
   }
 });
