@@ -62,6 +62,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
+  align-items: center;
+  position: relative;
 }
 .site-header .logo {
   display: flex;
@@ -125,13 +127,17 @@
   border: none;
   font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media (max-width: 768px) {
   .site-header .burger-button {
     display: block;
   }
 }
-.site-header .mobile-menu-panel {
+
+.mobile-menu-panel {
   position: fixed;
   top: 0;
   left: -160px;
@@ -146,59 +152,39 @@
   transition: left 0.2s ease;
   z-index: 999;
 }
-.site-header .mobile-menu-panel.active {
+.mobile-menu-panel.active {
   left: 0;
 }
-.site-header .mobile-menu-panel a {
+.mobile-menu-panel a {
   font-size: 1.2rem;
   text-decoration: none;
   color: #374151;
   transition: color 0.2s ease;
 }
-.site-header .mobile-menu-panel a.active {
+.mobile-menu-panel a.active {
   color: #4a6ea9;
 }
-.site-header .mobile-menu-panel a:hover {
+.mobile-menu-panel a:hover {
   color: rgba(86, 125, 187, 0.9);
 }
 @media (min-width: 1024px) {
-  .site-header .mobile-menu-panel a {
+  .mobile-menu-panel a {
     font-size: 1.4rem;
   }
 }
-.site-header .header-tools {
+.mobile-menu-panel .header-tools {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 100%;
-  overflow: hidden;
   gap: 0.5rem;
 }
 @media (max-width: 768px) {
-  .site-header .header-tools {
+  .mobile-menu-panel .header-tools {
     width: 40%;
   }
 }
-.site-header .header-tools .search {
-  position: relative;
-  margin-left: 5%;
-  max-width: 300px;
-  width: 100%;
-}
-.site-header .header-tools .search input {
-  width: 100%;
-  padding: 0.5rem 2rem 0.5rem 2.5rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-}
-.site-header .header-tools .search .ri-search-line {
-  position: absolute;
-  left: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #9ca3af;
-}
-.site-header .header-tools .cart-button {
+.mobile-menu-panel .header-tools .cart-button {
   width: 2.5rem;
   height: 2.5rem;
   flex-shrink: 0;
@@ -214,11 +200,11 @@
   background-color: #6b7280;
   border-radius: 50%;
 }
-.site-header .header-tools .cart-button:hover {
+.mobile-menu-panel .header-tools .cart-button:hover {
   background: rgba(86, 125, 187, 0.9);
 }
 @media (max-width: 320px) {
-  .site-header .header-tools .cart-button {
+  .mobile-menu-panel .header-tools .cart-button {
     width: 2.2rem;
     height: 2.2rem;
   }

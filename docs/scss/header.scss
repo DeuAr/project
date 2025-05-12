@@ -17,12 +17,16 @@
   .nav-wrapper {
     @include flex-between();
     padding: 0.5rem 0;
+    align-items: center;
+    position: relative;
   }
   .logo {
     @include flex-center();
     margin-left: 1rem;
     color: $primary;
-
+    @media (max-width: 400px) {
+      margin: 0;
+    }
     svg {
       width: 30pt;
       height: 30pt;
@@ -55,6 +59,8 @@
     border: none;
     font-size: 2rem;
     cursor: pointer;
+    position: absolute;
+    left: 50%;
     @media (max-width: 768px) {
       display: block;
     }
@@ -119,9 +125,9 @@
       @include button-style();
       background-color: $gray-500;
       border-radius: 50%;
-      @media(max-width:320px){
-      width: 2.2rem;
-      height: 2.2rem;
+      @media (max-width: 320px) {
+        width: 2.2rem;
+        height: 2.2rem;
       }
     }
   }

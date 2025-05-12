@@ -19,6 +19,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
+  align-items: center;
+  position: relative;
 }
 .site-header .logo {
   display: flex;
@@ -26,6 +28,11 @@
   justify-content: center;
   margin-left: 1rem;
   color: #4a6ea9;
+}
+@media (max-width: 400px) {
+  .site-header .logo {
+    margin: 0;
+  }
 }
 .site-header .logo svg {
   width: 30pt;
@@ -82,6 +89,8 @@
   border: none;
   font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  left: 50%;
 }
 @media (max-width: 768px) {
   .site-header .burger-button {
