@@ -12,14 +12,13 @@
     margin-bottom: 2rem;
   }
   .footer-brand .logo {
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 0.5rem 0.25rem;
     @include font(1.6rem, 1.6rem, 2rem);
+    svg{
+      margin-bottom: -0.5rem;
+    }
   }
   .footer-contacts {
-    h3 {
-      font-size: 1.125rem;
-      margin-bottom: 1rem;
-    }
     ul li {
       display: flex;
       justify-content: left;

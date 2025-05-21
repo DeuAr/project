@@ -11,7 +11,7 @@
   margin-bottom: 2rem;
 }
 .site-footer .footer-brand .logo {
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 0.5rem 0rem;
   font-size: 1.6rem;
   font-family: "Pacifico";
 }
@@ -25,9 +25,8 @@
     font-size: 2rem;
   }
 }
-.site-footer .footer-contacts h3 {
-  font-size: 1.125rem;
-  margin-bottom: 1rem;
+.site-footer .footer-brand .logo svg {
+  margin-bottom: -0.5rem;
 }
 .site-footer .footer-contacts ul li {
   display: flex;
@@ -49,6 +48,7 @@
 }
 
 .site-header {
+  padding: 0 0.25rem;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
@@ -134,7 +134,7 @@
   font-size: 2rem;
   cursor: pointer;
   position: absolute;
-  left: 50%;
+  left: 48%;
 }
 @media (max-width: 768px) {
   .site-header .burger-button {

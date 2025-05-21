@@ -10,7 +10,7 @@
   margin-bottom: 2rem;
 }
 .site-footer .footer-brand .logo {
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 0.5rem 0.25rem;
   font-size: 1.6rem;
   font-family: "Pacifico";
 }
@@ -24,9 +24,8 @@
     font-size: 2rem;
   }
 }
-.site-footer .footer-contacts h3 {
-  font-size: 1.125rem;
-  margin-bottom: 1rem;
+.site-footer .footer-brand .logo svg {
+  margin-bottom: -0.5rem;
 }
 .site-footer .footer-contacts ul li {
   display: flex;
@@ -48,6 +47,7 @@
 }
 
 .site-header {
+  padding: 0 0.25rem;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
@@ -71,6 +71,11 @@
   justify-content: center;
   margin-left: 1rem;
   color: #4a6ea9;
+}
+@media (max-width: 400px) {
+  .site-header .logo {
+    margin: 0;
+  }
 }
 .site-header .logo svg {
   width: 30pt;
@@ -127,6 +132,8 @@
   border: none;
   font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  left: 48%;
 }
 @media (max-width: 768px) {
   .site-header .burger-button {
@@ -454,6 +461,7 @@ body.site-body {
   padding: 2rem 0;
 }
 .catalog-page .page-title {
+  padding: 0 1rem;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -462,6 +470,7 @@ body.site-body {
 .filter-panel {
   border-radius: 0.5rem;
   flex: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 769px) {
   .filter-panel {
@@ -475,7 +484,7 @@ body.site-body {
   margin-bottom: 0.5rem;
 }
 .filter-panel .filter-block .sort-select {
-  width: 50%;
+  width: 45%;
   padding: 0.5rem;
   background: #4a6ea9;
   color: white;
@@ -604,7 +613,7 @@ body.site-body {
   background: #000000;
 }
 .filter-panel .reset-button {
-  width: 50%;
+  width: 35%;
   padding: 0.75rem;
   background: #4a6ea9;
   color: white;
@@ -628,7 +637,7 @@ body.site-body {
   }
 }
 .catalog-layout aside.filter-panel {
-  padding-left: 0.3%;
+  padding: 0.3rem;
   background: white;
   border-radius: 0.5rem;
   flex-shrink: 0;
@@ -649,6 +658,7 @@ body.site-body {
 }
 .catalog-layout .product-grid {
   display: grid;
+  padding: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
 }

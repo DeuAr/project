@@ -5,6 +5,7 @@
 }
 
 .site-header {
+  padding: 0 0.25rem;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
@@ -90,7 +91,7 @@
   font-size: 2rem;
   cursor: pointer;
   position: absolute;
-  left: 50%;
+  left: 48%;
 }
 @media (max-width: 768px) {
   .site-header .burger-button {
